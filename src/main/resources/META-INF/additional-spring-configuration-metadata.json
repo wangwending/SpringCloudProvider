@@ -1,5 +1,67 @@
-{"properties": [{
-  "name": "eureka.environment",
-  "type": "java.lang.String",
-  "description": "A description for 'eureka.environment'"
-}]}
+{"properties": [
+  {
+    "name": "eureka.environment",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.environment'"
+  },
+  {
+    "name": "spring.datasource.max-open-prepared-statements",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.max-open-prepared-statements'"
+  },
+  {
+    "name": "spring.datasource.pool-prepared-statements",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.pool-prepared-statements'"
+  },
+  {
+    "name": "spring.datasource.test-on-return",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.test-on-return'"
+  },
+  {
+    "name": "spring.datasource.test-on-borrow",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.test-on-borrow'"
+  },
+  {
+    "name": "spring.datasource.test-while-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.test-while-idle'"
+  },
+  {
+    "name": "spring.datasource.validation-query",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.validation-query'"
+  },
+  {
+    "name": "spring.datasource.min-evictable-idle-time-millis",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.min-evictable-idle-time-millis'"
+  },
+  {
+    "name": "spring.datasource.time-between-eviction-runs-millis",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.time-between-eviction-runs-millis'"
+  },
+  {
+    "name": "spring.datasource.min-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.min-idle'"
+  },
+  {
+    "name": "spring.datasource.max-wait",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.max-wait'"
+  },
+  {
+    "name": "spring.datasource.initial-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.initial-size'"
+  },
+  {
+    "name": "spring.datasource.max-active",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.max-active'"
+  }
+]}

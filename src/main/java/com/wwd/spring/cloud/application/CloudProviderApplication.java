@@ -1,5 +1,6 @@
 package com.wwd.spring.cloud.application;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -17,6 +18,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableEurekaClient
 @SpringBootApplication
 @ComponentScan(value = {"com.wwd"})
+@MapperScan(basePackages = {"com.wwd.mapper"})
 public class CloudProviderApplication {
 	
 	private final static Logger log = LoggerFactory.getLogger(CloudProviderApplication.class);
