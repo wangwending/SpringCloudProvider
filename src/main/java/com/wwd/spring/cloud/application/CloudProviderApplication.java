@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
@@ -16,6 +17,7 @@ import org.springframework.context.annotation.ComponentScan;
 		* @since JDK 1.7
  */
 @EnableEurekaClient
+@EnableFeignClients
 @SpringBootApplication
 @ComponentScan(value = {"com.wwd"})
 @MapperScan(basePackages = {"com.wwd.mapper"})

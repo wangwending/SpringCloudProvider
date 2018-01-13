@@ -2,7 +2,7 @@
 <configuration xmlns="http://logging.apache.org/log4j/2.x">
 	<Properties>  
         <Property name="LOG_HOME">/Users/wwd/logs</Property>  
-        <Property name="FILE_NAME">springMVCDemo</Property>  
+        <Property name="FILE_NAME">SpringCloudProvider</Property>  
     </Properties>  
 	<appenders>
 		<Console name="STDOUT" target="SYSTEM_OUT">
